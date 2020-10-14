@@ -10,7 +10,7 @@ Si vous n’avez pas YunoHost, consultez [le guide](https://yunohost.org/#/insta
 
 ## Vue d’ensemble
 
-Tiny Tiny RSS est un lecteur et agrégateur de flux d'actualités (RSS/Atom) en ligne gratuit et open source.
+Bludit est une application Web pour créer votre propre site Web ou blog en quelques secondes; c'est totalement gratuit et open source. Bludit est un CMS Flat-File, ce qui (dans ce cas) signifie que Bludit utilise des fichiers au format JSON pour stocker le contenu. Vous n'avez pas besoin d'installer ou de configurer une base de données; vous n'avez besoin que d'un serveur Web prenant en charge PHP.
 
 **Version incluse :** 3.13.1
 
@@ -20,7 +20,7 @@ Tiny Tiny RSS est un lecteur et agrégateur de flux d'actualités (RSS/Atom) en 
 
 ## Démo
 
-* [YunoHost demo](https://demo.yunohost.org/ttrss/)
+* [YunoHost demo](https://demo.bludit.com/)
 
 ## Configuration
 

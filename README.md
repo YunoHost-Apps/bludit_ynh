@@ -10,7 +10,7 @@ If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to
 
 ## Overview
 
-Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator.
+Bludit is a web application to build your own website or blog in seconds; it's completely free and open source. Bludit is a Flat-File CMS, which (in this case) means that Bludit uses files in the JSON format to store the content. You don't need to install or configure a database; you only need a web server with PHP support.
 
 **Shipped version:** 3.13.1
 
@@ -20,7 +20,7 @@ Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader an
 
 ## Demo
 
-* [YunoHost demo](https://demo.yunohost.org/ttrss/)
+* [YunoHost demo](https://demo.bludit.com/)
 
 ## Configuration
 

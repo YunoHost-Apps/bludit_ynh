@@ -64,10 +64,10 @@ ynh_add_nginx_config
 #=================================================
 # CREATE DEDICATED USER
 #=================================================
-# ynh_script_progression --message="Making sure dedicated system user exists..." --weight=1
+ynh_script_progression --message="Making sure dedicated system user exists..." --weight=1
 
-# # Create a dedicated user (if not existing)
-# ynh_system_user_create --username=$app
+# Create a dedicated user (if not existing)
+ynh_system_user_create --username=$app
 
 #=================================================
 # PHP-FPM CONFIGURATION
@@ -80,12 +80,12 @@ ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION --package="$extra_php_dependenc
 #=================================================
 # SPECIFIC UPGRADE
 #=================================================
-# CONFIGURE TTRSS
+# UPGRADING BLUDIT
 #=================================================
 
 if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
-	ynh_script_progression --message="Reconfiguring ttrss..." --weight=2
+	ynh_script_progression --message="Upgrading Bludit..." --weight=2
 
 	# Replace the old ttrss by the new one
 	ynh_secure_remove --file=$final_path
@@ -95,16 +95,12 @@ then
 fi
 
 #=================================================
-# GENERIC FINALIZATION
-#=================================================
 # SECURE FILES AND DIRECTORIES
 #=================================================
 
 # Set permissions to app files
-chown -R root: $final_path
+chown -R $app: $final_path
 
-#=================================================
-# GENERIC FINALIZATION
 #=================================================
 # RELOAD NGINX
 #=================================================
