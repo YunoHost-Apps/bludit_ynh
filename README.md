@@ -12,11 +12,11 @@ If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to
 
 Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator.
 
-**Shipped version:** 2020.10.11
+**Shipped version:** 3.13.1
 
 ## Screenshots
 
-![](https://tt-rss.org/images/ttrss/18.12/1812-shot1.png)
+![](https://www.bludit.com/img/bludit_1_en.png?version=3.9.1)
 
 ## Demo
 
@@ -44,9 +44,9 @@ Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader an
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/ttrss_ynh/issues
- * Tiny Tiny RSS website: https://tt-rss.org/
- * Tiny Tiny RSS repository: https://git.tt-rss.org/git/tt-rss
+ * Report a bug: https://github.com/YunoHost-Apps/bludit_ynh/issues
+ * Bludit website: https://www.bludit.com/
+ * Bludit repository: https://github.com/bludit/bludit
  * YunoHost website: https://yunohost.org/
 
 ---

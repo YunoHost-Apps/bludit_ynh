@@ -1,4 +1,4 @@
-# Tiny Tiny RSS pour YunoHost
+# Bludit pour YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/ttrss.svg)](https://dash.yunohost.org/appci/app/ttrss) ![](https://ci-apps.yunohost.org/ci/badges/ttrss.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/ttrss.maintain.svg)  
 [![Installer Tiny Tiny RSS avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=ttrss)
@@ -12,11 +12,11 @@ Si vous n’avez pas YunoHost, consultez [le guide](https://yunohost.org/#/insta
 
 Tiny Tiny RSS est un lecteur et agrégateur de flux d'actualités (RSS/Atom) en ligne gratuit et open source.
 
-**Version incluse :** 2020.10.11
+**Version incluse :** 3.13.1
 
 ## Captures d’écran
 
-![](https://tt-rss.org/images/ttrss/18.12/1812-shot1.png)
+![](https://www.bludit.com/img/bludit_1_en.png?version=3.9.1)
 
 ## Démo
 
@@ -26,8 +26,8 @@ Tiny Tiny RSS est un lecteur et agrégateur de flux d'actualités (RSS/Atom) en 
 
 ## Documentation
 
-* Documentation officielle : https://git.tt-rss.org/git/tt-rss/wiki
-* Documentation YunoHost : https://yunohost.org/#/app_ttrss
+* Documentation officielle : 
+* Documentation YunoHost : https://yunohost.org/#/app_blodit_fr
 
 ## Caractéristiques spécifiques YunoHost
 
@@ -47,9 +47,9 @@ Tiny Tiny RSS est un lecteur et agrégateur de flux d'actualités (RSS/Atom) en 
 
 ## Liens
 
-* Signaler un bug : https://github.com/YunoHost-Apps/ttrss_ynh/issues
-* Site web de Tiny Tiny RSS : https://tt-rss.org/
-* Dépôt de l’application principale : https://git.tt-rss.org/git/tt-rss
+* Signaler un bug : https://github.com/YunoHost-Apps/bludit_ynh/issues
+* Site web de Bludit : https://www.bludit.com/
+* Dépôt de l’application principale : https://github.com/bludit/bludit
 * Site web YunoHost : https://yunohost.org/
 
 ---
@@ -60,7 +60,7 @@ Merci de faire vos pull request sur la [testing branch](https://github.com/YunoH
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/ttrss_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/bludit_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade ttrss -u https://github.com/YunoHost-Apps/ttrss_ynh/tree/testing --debug
+sudo yunohost app upgrade bludit -u https://github.com/YunoHost-Apps/bludit_ynh/tree/testing --debug
 ```
