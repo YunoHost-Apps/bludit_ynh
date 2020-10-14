@@ -20,7 +20,7 @@ Bludit is a web application to build your own website or blog in seconds; it's c
 
 ## Demo
 
-* [YunoHost demo](https://demo.bludit.com/)
+* [Official demo](https://demo.bludit.com/)
 
 ## Configuration
 
