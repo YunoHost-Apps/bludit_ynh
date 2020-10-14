@@ -33,6 +33,9 @@ Bludit is a web application to build your own website or blog in seconds; it's c
 
 #### Multi-users support
 
+ * Are LDAP and HTTP auth supported? **No**
+ * Can the app be used by multiple users? **Yes**
+
 #### Supported architectures
 
 * x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/bludit%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/bludit/)
