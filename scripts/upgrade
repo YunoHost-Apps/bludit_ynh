@@ -12,7 +12,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 # LOAD SETTINGS
 #=================================================
-ynh_script_progression --message="Loading installation settings..."  --weight=1
+ynh_script_progression --message="Loading installation settings..." --weight=1
 
 app=$YNH_APP_INSTANCE_NAME
 
@@ -31,7 +31,7 @@ upgrade_type=$(ynh_check_app_version_changed)
 #=================================================
 # ENSURE DOWNWARD COMPATIBILITY
 #=================================================
-ynh_script_progression --message="Ensuring downward compatibility..."  --weight=2
+ynh_script_progression --message="Ensuring downward compatibility..." --weight=2
 
 # If final_path doesn't exist, create it
 if [ -z "$final_path" ]; then
@@ -42,9 +42,9 @@ fi
 #=================================================
 # BACKUP BEFORE UPGRADE THEN ACTIVE TRAP
 #=================================================
-ynh_script_progression --message="Backing up Bludit before upgrading (may take a while)..." --weight=7
+ynh_script_progression --message="Backing up Bludit before upgrading..." --weight=7
 
-# Backup the current version of the app
+# Backup the current version of Bludit
 ynh_backup_before_upgrade
 ynh_clean_setup () {
 	# restore it if the upgrade fails
@@ -87,7 +87,7 @@ if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
 	ynh_script_progression --message="Upgrading Bludit..." --weight=2
 
-	# Replace the old ttrss by the new one
+	# Replace the old Bludit by the new one
 	ynh_secure_remove --file=$final_path
 
 	# Download, check integrity, uncompress and patch the source from app.src

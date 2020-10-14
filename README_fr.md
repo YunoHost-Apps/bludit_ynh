@@ -56,7 +56,7 @@ Bludit est une application Web pour créer votre propre site Web ou blog en quel
 
 ## Developers infos
 
-Merci de faire vos pull request sur la [testing branch](https://github.com/YunoHost-Apps/ttrss_ynh/tree/testing).
+Merci de faire vos pull request sur la [testing branch](https://github.com/YunoHost-Apps/bludit_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```

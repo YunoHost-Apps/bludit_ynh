@@ -2,6 +2,7 @@
 	; Manifest
 		domain="domain.tld"	(DOMAIN)
 		path="/path"	    (PATH)
+		is_public=1	        (PUBLIC|public=1|private=0)
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=1
@@ -21,4 +22,6 @@
 Email=
 Notification=none
 ;;; Upgrade options
-		manifest_arg=domain=DOMAIN&path=PATH
+	; commit=CommitHash
+		name=Name and date of the commit.
+		manifest_arg=domain=DOMAIN&path=PATH&is_public=1&
