@@ -78,28 +78,6 @@ then
 fi
 
 #=================================================
-# SPECIFIC MODIFICATIONS
-#=================================================
-ynh_script_progression --message="Configuring $app..." --weight=1
-
-domain="$new_domain"
-path_url="$new_path"
-
-ynh_backup_if_checksum_is_different --file="$final_path/config.php"
-
-cp ../conf/config.php "$final_path/config.php"
-
-# Change domain name in config.php
-ynh_replace_string --match_string="__DBNAME__"     --replace_string="$db_name"                 --target_file="$final_path/config.php"
-ynh_replace_string --match_string="__DBPWD__"      --replace_string="$db_pwd"                  --target_file="$final_path/config.php"
-ynh_replace_string --match_string="__DOMAINPATH__" --replace_string="https://$domain$path_url" --target_file="$final_path/config.php"
-
-# Recalculate and store the config file checksum into the app settings
-ynh_store_file_checksum --file="$final_path/config.php"
-
-#=================================================
-# GENERIC FINALIZATION
-#=================================================
 # RELOAD NGINX
 #=================================================
 ynh_script_progression --message="Reloading NGINX web server..." --weight=2

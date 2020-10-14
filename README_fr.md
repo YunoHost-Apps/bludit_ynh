@@ -1,11 +1,11 @@
 # Bludit pour YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/ttrss.svg)](https://dash.yunohost.org/appci/app/ttrss) ![](https://ci-apps.yunohost.org/ci/badges/ttrss.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/ttrss.maintain.svg)  
-[![Installer Tiny Tiny RSS avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=ttrss)
+[![Integration level](https://dash.yunohost.org/integration/bludit.svg)](https://dash.yunohost.org/appci/app/bludit) ![](https://ci-apps.yunohost.org/ci/badges/bludit.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/bludit.maintain.svg)  
+[![Installer bludit avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=bludit)
 
 *[Read this readme in english.](./README.md)* 
 
-> *Ce package vous permet d’installer Tiny Tiny RSS rapidement et simplement sur un serveur YunoHost.  
+> *Ce package vous permet d’installer bludit rapidement et simplement sur un serveur YunoHost.  
 Si vous n’avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l’installer.*
 
 ## Vue d’ensemble
@@ -27,7 +27,7 @@ Tiny Tiny RSS est un lecteur et agrégateur de flux d'actualités (RSS/Atom) en 
 ## Documentation
 
 * Documentation officielle : 
-* Documentation YunoHost : https://yunohost.org/#/app_blodit_fr
+* Documentation YunoHost : https://yunohost.org/#/app_bludit_fr
 
 ## Caractéristiques spécifiques YunoHost
 
@@ -38,8 +38,8 @@ Tiny Tiny RSS est un lecteur et agrégateur de flux d'actualités (RSS/Atom) en 
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/ttrss%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/ttrss/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/ttrss%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/ttrss/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/bludit%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/bludit/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/bludit%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/bludit/)
 
 ## Limitations
 
