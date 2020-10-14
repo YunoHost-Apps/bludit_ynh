@@ -1,0 +1,13 @@
+[Unit]
+Description=News feed reader and aggregator
+After=network.target mysql.service
+
+[Service]
+User=__APP__
+Group=__APP__
+ExecStart=/usr/bin/php __FINALPATH__/update_daemon2.php
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

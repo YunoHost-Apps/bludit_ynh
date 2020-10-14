@@ -1,0 +1,47 @@
+{
+  "name": "Bludit",
+  "id": "bludit",
+  "packaging_format": 1,
+  "description": {
+    "en": "Simple, Fast, Secure, Flat-File CMS",
+    "fr": "CMS simple, rapide, sécurisé et à fichier plat"
+  },
+  "version": "3.13.1~ynh1",
+  "url": "www.bludit.com",
+  "license": "MIT",
+  "maintainer": {
+    "name": "",
+    "email": ""
+  },
+  "requirements": {
+    "yunohost": ">= 3.8.1"
+  },
+  "multi_instance": true,
+  "services": [
+      "nginx",
+      "php7.0-fpm",
+  ],
+  "arguments": {
+    "install" : [
+    {
+      "name": "domain",
+      "type": "domain",
+      "ask": {
+        "en": "Choose a domain for Bludit",
+        "fr": "Choisissez un domaine pour Bludit"
+      },
+      "example": "domain.org"
+    },
+    {
+      "name": "path",
+      "type": "path",
+      "ask": {
+        "en": "Choose a path for Bludit",
+        "fr": "Choisissez un chemin pour Bludit"
+      },
+      "example": "/bludit",
+      "default": "/bludit"
+      }
+    ]
+  }
+}
