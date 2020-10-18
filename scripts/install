@@ -84,14 +84,6 @@ ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION --package="$extra_php_dependenc
 phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
-# CONFIGURE BLUDIT
-#=================================================
-ynh_script_progression --message="Configuring .htaccess..." --weight=1
-
-# Change variables in ttrss configuration
-ynh_replace_string --match_string="on" --replace_string="off" --target_file="$final_path/.htaccess"
-
-#=================================================
 # SECURE FILES AND DIRECTORIES
 #=================================================
 
