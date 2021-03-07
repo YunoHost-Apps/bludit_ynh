@@ -27,7 +27,7 @@ Bludit est une application Web pour créer votre propre site Web ou blog en quel
 ## Documentation
 
 * Documentation officielle : https://docs.bludit.com/en/
-* Documentation YunoHost : https://yunohost.org/#/app_bludit_fr
+* Documentation YunoHost : https://yunohost.org/fr/app_bludit
 
 ## Caractéristiques spécifiques YunoHost
 
