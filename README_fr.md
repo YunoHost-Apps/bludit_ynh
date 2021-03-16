@@ -1,7 +1,7 @@
 # Bludit pour YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/bludit.svg)](https://dash.yunohost.org/appci/app/bludit) ![](https://ci-apps.yunohost.org/ci/badges/bludit.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/bludit.maintain.svg)  
-[![Installer Bludit avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=bludit)
+[![Installer Bludit avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=bludit)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -27,7 +27,7 @@ Bludit est une application Web pour créer votre propre site Web ou blog en quel
 ## Documentation
 
 * Documentation officielle : https://docs.bludit.com/en/
-* Documentation YunoHost : https://yunohost.org/#/app_bludit_fr
+* Documentation YunoHost : https://yunohost.org/fr/app_bludit
 
 ## Caractéristiques spécifiques YunoHost
 

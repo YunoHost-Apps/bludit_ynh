@@ -6,7 +6,7 @@
     "en": "Simple, Fast, Secure, Flat-File CMS",
     "fr": "CMS simple, rapide, sécurisé et à fichier plat"
   },
-  "version": "3.13.1~ynh2",
+  "version": "3.13.1~ynh3",
   "url": "www.bludit.com",
   "license": "MIT",
   "maintainer": {
@@ -14,41 +14,29 @@
     "email": ""
   },
   "requirements": {
-    "yunohost": ">= 4.0.0"
+    "yunohost": ">= 4.1.7"
   },
   "multi_instance": true,
   "services": [
       "nginx",
-      "php7.0-fpm"
+      "php7.3-fpm"
   ],
   "arguments": {
     "install" : [
     {
       "name": "domain",
       "type": "domain",
-      "ask": {
-        "en": "Choose a domain for Bludit",
-        "fr": "Choisissez un domaine pour Bludit"
-      },
       "example": "domain.org"
     },
     {
       "name": "path",
       "type": "path",
-      "ask": {
-        "en": "Choose a path for Bludit",
-        "fr": "Choisissez un chemin pour Bludit"
-      },
       "example": "/bludit",
       "default": "/bludit"
       },
     {
       "name": "is_public",
       "type": "boolean",
-      "ask": {
-        "en": "Is it a public application?",
-        "fr": "Est-ce une application publique ?"
-    },
     "help": {
       "en": "If enabled, Bludit will be accessible by people who do not have an account. This can be changed later via the webadmin.",
       "fr": "Si cette case est cochée, Bludit sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
