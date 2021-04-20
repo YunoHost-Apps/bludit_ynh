@@ -38,8 +38,8 @@ Bludit is a web application to build your own website or blog in seconds; it's c
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/bludit%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/bludit/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/bludit%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/bludit/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/bludit.svg)](https://ci-apps.yunohost.org/ci/apps/bludit/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/bludit.svg)](https://ci-apps-arm.yunohost.org/ci/apps/bludit/)
 
 ## Limitations
 
