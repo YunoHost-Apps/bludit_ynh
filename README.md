@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Simple, Fast, Secure, Flat-File CMS
 
-**Shipped version:** 3.13.1~ynh4
+**Shipped version:** 3.13.1~ynh5
 
 **Demo:** https://demo.example.com
 
