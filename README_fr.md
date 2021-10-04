@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 CMS simple, rapide, sécurisé et à fichier plat
 
-**Version incluse :** 3.13.1~ynh5
+**Version incluse :** 3.13.1~ynh6
 
 **Démo :** https://demo.example.com
 
