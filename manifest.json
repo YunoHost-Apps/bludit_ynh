@@ -13,7 +13,6 @@
         "website": "www.bludit.com",
         "demo": "https://demo.example.com",
         "admindoc": "https://docs.bludit.com/en/",
-        "userdoc": "https://yunohost.org/en/app_bludit",
         "code": "https://github.com/bludit/bludit"
     },
   "license": "MIT",
