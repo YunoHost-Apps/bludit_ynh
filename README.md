@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Simple, Fast, Secure, Flat-File CMS
 
-**Shipped version:** 3.13.1~ynh5
+**Shipped version:** 3.13.1~ynh6
 
 **Demo:** https://demo.example.com
 
@@ -28,7 +28,6 @@ Simple, Fast, Secure, Flat-File CMS
 ## Documentation and resources
 
 * Official app website: www.bludit.com
-* Official user documentation: https://yunohost.org/en/app_bludit
 * Official admin documentation: https://docs.bludit.com/en/
 * Upstream app code repository: https://github.com/bludit/bludit
 * YunoHost documentation for this app: https://yunohost.org/app_bludit

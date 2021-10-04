@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 CMS simple, rapide, sécurisé et à fichier plat
 
-**Version incluse :** 3.13.1~ynh5
+**Version incluse :** 3.13.1~ynh6
 
 **Démo :** https://demo.example.com
 
@@ -24,7 +24,6 @@ CMS simple, rapide, sécurisé et à fichier plat
 ## Documentations et ressources
 
 * Site officiel de l'app : www.bludit.com
-* Documentation officielle utilisateur : https://yunohost.org/en/app_bludit
 * Documentation officielle de l'admin : https://docs.bludit.com/en/
 * Dépôt de code officiel de l'app : https://github.com/bludit/bludit
 * Documentation YunoHost pour cette app : https://yunohost.org/app_bludit

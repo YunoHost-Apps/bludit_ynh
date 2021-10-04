@@ -6,14 +6,13 @@
     "en": "Simple, Fast, Secure, Flat-File CMS",
     "fr": "CMS simple, rapide, sécurisé et à fichier plat"
   },
-  "version": "3.13.1~ynh5",
+  "version": "3.13.1~ynh6",
   "url": "www.bludit.com",
   "upstream": {
         "license": "MIT",
         "website": "www.bludit.com",
         "demo": "https://demo.example.com",
         "admindoc": "https://docs.bludit.com/en/",
-        "userdoc": "https://yunohost.org/en/app_bludit",
         "code": "https://github.com/bludit/bludit"
     },
   "license": "MIT",
@@ -33,8 +32,7 @@
     "install" : [
     {
       "name": "domain",
-      "type": "domain",
-      "example": "domain.org"
+      "type": "domain"
     },
     {
       "name": "path",
