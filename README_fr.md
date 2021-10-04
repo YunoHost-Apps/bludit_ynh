@@ -24,7 +24,6 @@ CMS simple, rapide, sécurisé et à fichier plat
 ## Documentations et ressources
 
 * Site officiel de l'app : www.bludit.com
-* Documentation officielle utilisateur : https://yunohost.org/en/app_bludit
 * Documentation officielle de l'admin : https://docs.bludit.com/en/
 * Dépôt de code officiel de l'app : https://github.com/bludit/bludit
 * Documentation YunoHost pour cette app : https://yunohost.org/app_bludit
