@@ -19,7 +19,7 @@ Simple, Fast, Secure, Flat-File CMS
 
 **Shipped version:** 3.13.1~ynh6
 
-**Demo:** https://demo.example.com
+**Demo:** https://demo.bludit.com
 
 ## Screenshots
 
