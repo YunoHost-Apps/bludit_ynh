@@ -15,7 +15,7 @@ CMS simple, rapide, sécurisé et à fichier plat
 
 **Version incluse :** 4.0.0-rc3~ynh1
 
-**Démo :** https://demo.example.com
+**Démo :** https://demo.bludit.com
 
 ## Captures d'écran
 
