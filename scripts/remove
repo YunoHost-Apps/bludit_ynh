@@ -21,14 +21,6 @@ db_name=$(ynh_app_setting_get --app=$app --key=db_name)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 
 #=================================================
-# REMOVE DEPENDENCIES
-#=================================================
-ynh_script_progression --message="Removing dependencies..." --weight=1
-
-# Remove metapackage and its dependencies
-ynh_remove_app_dependencies
-
-#=================================================
 # REMOVE APP MAIN DIR
 #=================================================
 ynh_script_progression --message="Removing Bludit main directory..." --weight=4
@@ -51,6 +43,14 @@ ynh_script_progression --message="Removing PHP-FPM configuration..." --weight=3
 
 # Remove the dedicated PHP-FPM config
 ynh_remove_fpm_config
+
+#=================================================
+# REMOVE DEPENDENCIES
+#=================================================
+ynh_script_progression --message="Removing dependencies..." --weight=1
+
+# Remove metapackage and its dependencies
+ynh_remove_app_dependencies
 
 #=================================================
 # REMOVE DEDICATED USER
