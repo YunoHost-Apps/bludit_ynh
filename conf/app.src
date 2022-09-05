@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/bludit/bludit/archive/3.13.1.tar.gz
-SOURCE_SUM=ec0f262335d371d9123110c55866b562b7e0238a20db2ac9f6b284d2ac3426ed
+SOURCE_URL=https://github.com/bludit/bludit/archive/3.14.0.tar.gz
+SOURCE_SUM=4a411cdcd9d3412a87cc89f9f1067bef51533b8c9303f1bc34452e30ad5b586c
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
