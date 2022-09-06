@@ -89,11 +89,11 @@ chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
 #=================================================
-# RELOAD NGINX
+# UPGRADE DEPENDENCIES
 #=================================================
-ynh_script_progression --message="Reloading NGINX web server..." --weight=2
+ynh_script_progression --message="Upgrading dependencies..." --weight=1
 
-ynh_systemd_action --service_name=nginx --action=reload
+ynh_install_app_dependencies $pkg_dependencies
 
 #=================================================
 # PHP-FPM CONFIGURATION
@@ -101,7 +101,7 @@ ynh_systemd_action --service_name=nginx --action=reload
 ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=2
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config --package="$extra_php_dependencies"
+ynh_add_fpm_config
 
 #=================================================
 # NGINX CONFIGURATION
@@ -110,6 +110,13 @@ ynh_script_progression --message="Upgrading NGINX web server configuration..." -
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
+
+#=================================================
+# RELOAD NGINX
+#=================================================
+ynh_script_progression --message="Reloading NGINX web server..." --weight=2
+
+ynh_systemd_action --service_name=nginx --action=reload
 
 #=================================================
 # END OF SCRIPT
