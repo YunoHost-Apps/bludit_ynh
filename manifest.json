@@ -1,54 +1,53 @@
 {
-    "name": "Bludit",
-    "id": "bludit",
-    "packaging_format": 1,
-    "description": {
-        "en": "Simple, Fast, Secure, Flat-File CMS",
-        "fr": "CMS simple, rapide, sécurisé et à fichier plat"
-    },
-    "version": "4.0.0-rc3~ynh1",
-    "url": "www.bludit.com",
-    "upstream": {
+  "name": "Bludit",
+  "id": "bludit",
+  "packaging_format": 1,
+  "description": {
+    "en": "Simple, Fast, Secure, Flat-File CMS",
+    "fr": "CMS simple, rapide, sécurisé et à fichier plat"
+  },
+  "version": "3.14.0~ynh1",
+  "url": "www.bludit.com",
+  "upstream": {
         "license": "MIT",
         "website": "www.bludit.com",
-        "demo": "https://demo.bludit.com",
         "admindoc": "https://docs.bludit.com/en/",
         "code": "https://github.com/bludit/bludit"
     },
-    "license": "MIT",
-    "maintainer": {
-        "name": "eric_G",
-        "email": ""
+  "license": "MIT",
+  "maintainer": {
+    "name": "eric_G",
+    "email": ""
+  },
+  "requirements": {
+    "yunohost": ">= 11.0.9"
+  },
+  "multi_instance": true,
+  "services": [
+      "nginx",
+      "php7.4-fpm"
+  ],
+  "arguments": {
+    "install" : [
+    {
+      "name": "domain",
+      "type": "domain"
     },
-    "requirements": {
-        "yunohost": ">= 11.0.9"
-    },
-    "multi_instance": true,
-    "services": [
-        "nginx",
-        "php8.0-fpm"
-    ],
-    "arguments": {
-        "install": [
-            {
-                "name": "domain",
-                "type": "domain"
-            },
-            {
-                "name": "path",
-                "type": "path",
-                "example": "/bludit",
-                "default": "/bludit"
-            },
-            {
-                "name": "is_public",
-                "type": "boolean",
-                "help": {
-                    "en": "If enabled, Bludit will be accessible by people who do not have an account. This can be changed later via the webadmin.",
-                    "fr": "Si cette case est cochée, Bludit sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
-                },
-                "default": true
-            }
-        ]
-    }
+    {
+      "name": "path",
+      "type": "path",
+      "example": "/bludit",
+      "default": "/bludit"
+      },
+    {
+      "name": "is_public",
+      "type": "boolean",
+    "help": {
+      "en": "If enabled, Bludit will be accessible by people who do not have an account. This can be changed later via the webadmin.",
+      "fr": "Si cette case est cochée, Bludit sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+        },
+        "default": true
+      }
+    ]
+  }
 }
