@@ -17,8 +17,10 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Simple, Fast, Secure, Flat-File CMS
 
-**Shipped version:** 3.14.0~ynh1
+**Shipped version:** 4.0.0-rc3~ynh1
 
+
+**Demo:** https://demo.bludit.com
 
 ## Screenshots
 

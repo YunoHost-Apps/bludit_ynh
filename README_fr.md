@@ -17,8 +17,10 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 CMS simple, rapide, sécurisé et à fichier plat
 
-**Version incluse :** 3.14.0~ynh1
+**Version incluse :** 4.0.0-rc3~ynh1
 
+
+**Démo :** https://demo.bludit.com
 
 ## Captures d'écran
 
