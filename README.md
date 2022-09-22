@@ -20,6 +20,8 @@ Simple, Fast, Secure, Flat-File CMS
 **Shipped version:** 3.14.1~ynh1
 
 
+**Demo:** https://demo.bludit.com
+
 ## Screenshots
 
 ![Screenshot of Bludit](./doc/screenshots/bludit_1_en.png)

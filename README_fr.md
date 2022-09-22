@@ -20,6 +20,8 @@ CMS simple, rapide, sécurisé et à fichier plat
 **Version incluse :** 3.14.1~ynh1
 
 
+**Démo :** https://demo.bludit.com
+
 ## Captures d'écran
 
 ![Capture d'écran de Bludit](./doc/screenshots/bludit_1_en.png)
