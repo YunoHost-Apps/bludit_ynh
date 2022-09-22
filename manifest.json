@@ -1,14 +1,14 @@
 {
-  "name": "Bludit",
-  "id": "bludit",
-  "packaging_format": 1,
-  "description": {
-    "en": "Simple, Fast, Secure, Flat-File CMS",
-    "fr": "CMS simple, rapide, sécurisé et à fichier plat"
-  },
-  "version": "3.14.1~ynh1",
-  "url": "www.bludit.com",
-  "upstream": {
+    "name": "Bludit",
+    "id": "bludit",
+    "packaging_format": 1,
+    "description": {
+        "en": "Simple, Fast, Secure, Flat-File CMS",
+        "fr": "CMS simple, rapide, sécurisé et à fichier plat"
+    },
+    "version": "3.14.1~ynh1",
+    "url": "www.bludit.com",
+    "upstream": {
         "license": "MIT",
         "website": "www.bludit.com",
         "demo": "https://demo.bludit.com",
