@@ -15,9 +15,13 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Simple, Fast, Secure, Flat-File CMS
+Bludit is a web application to build your own website or blog in seconds, it's completely free and open source. Bludit uses files in JSON format to store the content, you don't need to install or configure a database. You only need a web server with PHP support.
 
-**Shipped version:** 4.0.0-rc3~ynh1
+Bludit is a Flat-File CMS.
+
+Bludit supports Markdown and HTML code for the content.
+
+**Shipped version:** 3.14.1~ynh1
 
 
 **Demo:** https://demo.bludit.com
