@@ -6,7 +6,7 @@
         "en": "Simple, Fast, Secure, Flat-File CMS",
         "fr": "CMS simple, rapide, sécurisé et à fichier plat"
     },
-    "version": "3.14.1~ynh1",
+    "version": "3.14.1~ynh2",
     "url": "www.bludit.com",
     "upstream": {
         "license": "MIT",
