@@ -21,11 +21,13 @@ db_name=$(ynh_app_setting_get --app=$app --key=db_name)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 
 #=================================================
+# STANDARD REMOVE
+#=================================================
 # REMOVE APP MAIN DIR
 #=================================================
-ynh_script_progression --message="Removing Bludit main directory..." --weight=4
+ynh_script_progression --message="Removing app main directory..." --weight=4
 
-# Remove Bludit directory securely
+# Remove the app directory securely
 ynh_secure_remove --file="$final_path"
 
 #=================================================
@@ -64,4 +66,4 @@ ynh_system_user_delete --username=$app
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Removal of Bludit completed" --last
+ynh_script_progression --message="Removal of $app completed" --last
