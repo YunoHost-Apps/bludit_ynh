@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Bludit for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/bludit.svg)](https://dash.yunohost.org/appci/app/bludit) ![Working status](https://ci-apps.yunohost.org/ci/badges/bludit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/bludit.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/bludit.svg)](https://dash.yunohost.org/appci/app/bludit) ![Working status](https://ci-apps.yunohost.org/ci/badges/bludit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/bludit.maintain.svg)
+
 [![Install Bludit with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=bludit)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -22,7 +23,6 @@ Bludit is a Flat-File CMS.
 Bludit supports Markdown and HTML code for the content.
 
 **Shipped version:** 3.14.1~ynh2
-
 
 **Demo:** https://demo.bludit.com
 
