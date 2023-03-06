@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Bludit pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/bludit.svg)](https://dash.yunohost.org/appci/app/bludit) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/bludit.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/bludit.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/bludit.svg)](https://dash.yunohost.org/appci/app/bludit) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/bludit.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/bludit.maintain.svg)
+
 [![Installer Bludit avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=bludit)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Bludit rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Bludit rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Bludit is a web application to build your own website or blog in seconds, it's completely free and open source. Bludit uses files in JSON format to store the content, you don't need to install or configure a database. You only need a web server with PHP support.
 
@@ -21,20 +22,19 @@ Bludit is a Flat-File CMS.
 
 Bludit supports Markdown and HTML code for the content.
 
-**Version incluse :** 3.14.1~ynh2
-
+**Version incluse :** 3.14.1~ynh3
 
 **Démo :** https://demo.bludit.com
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Bludit](./doc/screenshots/bludit_1_en.png)
+![Capture d’écran de Bludit](./doc/screenshots/bludit_1_en.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <www.bludit.com>
-* Documentation officielle de l'admin : <https://docs.bludit.com/en/>
-* Dépôt de code officiel de l'app : <https://github.com/bludit/bludit>
+* Site officiel de l’app : <www.bludit.com>
+* Documentation officielle de l’admin : <https://docs.bludit.com/en/>
+* Dépôt de code officiel de l’app : <https://github.com/bludit/bludit>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_bludit>
 * Signaler un bug : <https://github.com/YunoHost-Apps/bludit_ynh/issues>
 
@@ -50,4 +50,4 @@ ou
 sudo yunohost app upgrade bludit -u https://github.com/YunoHost-Apps/bludit_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

@@ -1,0 +1,52 @@
+packaging_format = 2
+
+id = "bludit"
+name = "Bludit"
+description.en = "Simple, Fast, Secure, Flat-File CMS"
+description.fr = "CMS simple, rapide, sécurisé et à fichier plat"
+
+version = "3.14.1~ynh3"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "www.bludit.com"
+demo = "https://demo.bludit.com"
+admindoc = "https://docs.bludit.com/en/"
+code = "https://github.com/bludit/bludit"
+
+[integration]
+yunohost = ">= 11.1.13"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/bludit"
+
+    [install.init_main_permission]
+    help.en = "If enabled, Bludit will be accessible by people who do not have an account. This can be changed later via the webadmin."
+    help.fr = "Si cette case est cochée, Bludit sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+    type = "group"
+    default = "visitors"
+
+[resources]
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.0-gd php8.0-mbstring php8.0-dom"
