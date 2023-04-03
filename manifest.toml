@@ -5,7 +5,7 @@ name = "Bludit"
 description.en = "Simple, Fast, Secure, Flat-File CMS"
 description.fr = "CMS simple, rapide, sécurisé et à fichier plat"
 
-version = "3.14.1~ynh3"
+version = "3.14.1~ynh4"
 
 maintainers = ["eric_G"]
 
@@ -17,7 +17,7 @@ admindoc = "https://docs.bludit.com/en/"
 code = "https://github.com/bludit/bludit"
 
 [integration]
-yunohost = ">= 11.1.13"
+yunohost = ">= 11.1.16"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -41,6 +41,14 @@ ram.runtime = "50M"
     default = "visitors"
 
 [resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/bludit/bludit/archive/3.14.1.tar.gz"
+        sha256 = "27f96c1cd478c0885d402ccd5192ee5c227e5293ea23f53f92d652b9e46bf7af"
+        autoupdate.strategy = "latest_github_tag"
+
     [resources.system_user]
 
     [resources.install_dir]
