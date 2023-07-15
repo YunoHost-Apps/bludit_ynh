@@ -46,7 +46,7 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         url = "https://github.com/bludit/bludit/archive/3.15.0.tar.gz"
-        sha256 = "27f96c1cd478c0885d402ccd5192ee5c227e5293ea23f53f92d652b9e46bf7af"
+        sha256 = "c85963b14b2295fe0274bd54cf8ff21d00378f22ae66c5c4ee46b829974ed1b5"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
