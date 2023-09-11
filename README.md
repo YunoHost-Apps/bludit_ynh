@@ -22,7 +22,7 @@ Bludit is a Flat-File CMS.
 
 Bludit supports Markdown and HTML code for the content.
 
-**Shipped version:** 3.15.0~ynh1
+**Shipped version:** 3.15.0~ynh2
 
 **Demo:** https://demo.bludit.com
 
