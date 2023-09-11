@@ -5,7 +5,7 @@ name = "Bludit"
 description.en = "Simple, Fast, Secure, Flat-File CMS"
 description.fr = "CMS simple, rapide, sécurisé et à fichier plat"
 
-version = "3.15.0~ynh1"
+version = "3.15.0~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -17,7 +17,7 @@ admindoc = "https://docs.bludit.com/en/"
 code = "https://github.com/bludit/bludit"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -55,6 +55,10 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    api.url = "/api"
+    api.allowed = "visitors"
+    api.show_tile = false
+    api.protected = true
 
     [resources.apt]
-    packages = "php8.2-gd php8.2-mbstring php8.2-dom"
+    packages = "php8.2-gd, php8.2-mbstring, php8.2-dom"
