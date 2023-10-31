@@ -32,7 +32,7 @@ Bludit est une application Web pour créer votre propre site Web ou blog en quel
 * Site officiel de l’app : <www.bludit.com>
 * Documentation officielle de l’admin : <https://docs.bludit.com/en/>
 * Dépôt de code officiel de l’app : <https://github.com/bludit/bludit>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_bludit>
+* YunoHost Store: <https://apps.yunohost.org/app/bludit>
 * Signaler un bug : <https://github.com/YunoHost-Apps/bludit_ynh/issues>
 
 ## Informations pour les développeurs
