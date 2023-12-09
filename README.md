@@ -31,7 +31,7 @@ Bludit is a web application to build your own website or blog in seconds, it's c
 * Official app website: <www.bludit.com>
 * Official admin documentation: <https://docs.bludit.com/en/>
 * Upstream app code repository: <https://github.com/bludit/bludit>
-* YunoHost documentation for this app: <https://yunohost.org/app_bludit>
+* YunoHost Store: <https://apps.yunohost.org/app/bludit>
 * Report a bug: <https://github.com/YunoHost-Apps/bludit_ynh/issues>
 
 ## Developer info
