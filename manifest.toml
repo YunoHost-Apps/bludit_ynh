@@ -7,7 +7,7 @@ description.fr = "CMS simple, rapide, sécurisé et à fichier plat"
 
 version = "3.15.0~ynh2"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "MIT"
