@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Bludit for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/bludit.svg)](https://dash.yunohost.org/appci/app/bludit) ![Working status](https://ci-apps.yunohost.org/ci/badges/bludit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/bludit.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/bludit.svg)](https://ci-apps.yunohost.org/ci/apps/bludit/) ![Working status](https://ci-apps.yunohost.org/ci/badges/bludit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/bludit.maintain.svg)
 
 [![Install Bludit with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=bludit)
 
@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 Bludit is a web application to build your own website or blog in seconds, it's completely free and open source. Bludit uses files in JSON format to store the content, you don't need to install or configure a database. You only need a web server with PHP support. Bludit is a Flat-File CMS. Bludit supports Markdown and HTML code for the content.
 
-**Shipped version:** 3.15.0~ynh2
+**Shipped version:** 3.16.0~ynh1
 
 **Demo:** <https://demo.bludit.com>
 
