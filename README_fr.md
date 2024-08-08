@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Bludit est une application Web pour créer votre propre site Web ou blog en quelques secondes, elle est entièrement gratuite et open source. Bludit utilise des fichiers au format JSON pour stocker le contenu, vous n'avez pas besoin d'installer ou de configurer une base de données. Vous n'avez besoin que d'un serveur Web prenant en charge PHP. Bludit est un CMS à fichiers plats. Bludit prend en charge le code Markdown et HTML pour le contenu.
 
 
-**Version incluse :** 3.16.0~ynh1
+**Version incluse :** 3.16.1~ynh1
 
 **Démo :** <https://demo.bludit.com>
 
