@@ -36,7 +36,7 @@ Bludit is a web application to build your own website or blog in seconds, it's c
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/bludit_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/bludit_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
