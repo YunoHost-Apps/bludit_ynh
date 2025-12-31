@@ -17,7 +17,7 @@ admindoc = "https://docs.bludit.com/en/"
 code = "https://github.com/bludit/bludit"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
