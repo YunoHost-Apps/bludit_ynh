@@ -23,7 +23,6 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -66,4 +65,4 @@ ram.runtime = "50M"
     api.protected = true
 
     [resources.apt]
-    packages = "php8.2-gd, php8.2-mbstring, php8.2-dom"
+    packages = "php8.4-gd, php8.4-mbstring, php8.4-dom"
