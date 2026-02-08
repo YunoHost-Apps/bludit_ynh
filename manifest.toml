@@ -5,7 +5,7 @@ name = "Bludit"
 description.en = "Simple, Fast, Secure, Flat-File CMS"
 description.fr = "CMS simple, rapide, sécurisé et à fichier plat"
 
-version = "3.17.1~ynh1"
+version = "3.17.2~ynh1"
 
 maintainers = []
 
@@ -48,8 +48,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/bludit/bludit/archive/refs/tags/3.17.1.tar.gz"
-        sha256 = "8a1300e6e9354b6908e9d83626cc985322d7c3d0710a30054b1b790a239d5c43"
+        url = "https://github.com/bludit/bludit/archive/refs/tags/3.17.2.tar.gz"
+        sha256 = "0b76bf3d336600f45c7bea86ab0ae80ee233368815cda549e1520e2e665d43b7"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
