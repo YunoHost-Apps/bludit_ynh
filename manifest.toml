@@ -5,7 +5,7 @@ name = "Bludit"
 description.en = "Simple, Fast, Secure, Flat-File CMS"
 description.fr = "CMS simple, rapide, sécurisé et à fichier plat"
 
-version = "3.16.2~ynh2"
+version = "3.17.2~ynh1"
 
 maintainers = []
 
@@ -17,13 +17,12 @@ admindoc = "https://docs.bludit.com/en/"
 code = "https://github.com/bludit/bludit"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -49,8 +48,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/bludit/bludit/archive/refs/tags/3.16.2.tar.gz"
-        sha256 = "9a9b775f9551aba07ea12e76f0ed1daae0df8ca3dd4e7262013517dba07c77f7"
+        url = "https://github.com/bludit/bludit/archive/refs/tags/3.17.2.tar.gz"
+        sha256 = "0b76bf3d336600f45c7bea86ab0ae80ee233368815cda549e1520e2e665d43b7"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -66,4 +65,4 @@ ram.runtime = "50M"
     api.protected = true
 
     [resources.apt]
-    packages = "php8.2-gd, php8.2-mbstring, php8.2-dom"
+    packages = "php8.4-gd, php8.4-mbstring, php8.4-dom"
